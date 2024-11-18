@@ -1,0 +1,12 @@
+info:
+  title: MeteorBlog
+  subtitle: MeteorBlog
+  author: MeteorSky
+  url: https://MeteorSkyOne.github.io
+home_banner:
+  title: MeteorBlog
+  subtitle:
+    text: ['Loading...']
+    hitokoto: 
+      enable: true
+      api: https://v1.hitokoto.cn/
