@@ -2,7 +2,9 @@
 title: docker启动nacos
 
 date: 2024-11-18 14:19:13
-tags: nacos, docker
+tags: 
+  - nacos
+  - docker
 ---
 
 ```bash
