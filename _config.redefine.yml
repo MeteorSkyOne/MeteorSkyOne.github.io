@@ -10,3 +10,9 @@ home_banner:
     hitokoto: 
       enable: true
       api: https://v1.hitokoto.cn/
+comment:
+  enable: true
+  system: waline
+  config:
+    waline:
+      serverUrl: https://waline.bow.ink
