@@ -10,7 +10,7 @@ tags:
 
 ## 2.用xxx+abc@gmail.com注册cursor
 
-![cursor](\assets\cursor.png)
+![cursor](assets/cursor.png)
 
 +号后面的内容可以自定义，最后都会被转发到+号前面的邮箱中
 
