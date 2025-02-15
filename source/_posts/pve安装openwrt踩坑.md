@@ -1,7 +1,9 @@
 ---
 title: pve安装openwrt踩坑（all in one分享）
 date: 2025-02-15 22:42:30
-tags: openwrt
+tags: 
+  - pve
+  - openwrt
 ---
 # 前情提要
 整了一台服务器放家里，想着搞一台all in one，但是发现访问github的速度惨不忍睹，docker也得配镜像站，家里虽然有软路由，但是已经闲置好久了，那么考虑现在把他用起来
