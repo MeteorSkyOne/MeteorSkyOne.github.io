@@ -170,8 +170,12 @@ tmpfs                   512.0K         0    512.0K   0% /dev
 ![alt text](add.png)
 
 vm中ping openwrt的ip，发现不通，研究了一番才知道openwrt默认有防火墙，得配置一下  
-进`Network-Firewall-Zone Settings`把新网卡也加进zone list
+进`Network-Firewall-Zone Settings`把新网卡开一个zone并允许和lan通信
 
-![alt text](zone-setting.png)
+![1739685981050](1739685981050.png)
 
-这样就可以ping通了这样差不多就大公告成了，把想要科学上网的机器的网关和dns改成openwrt的ip就行了，这样就可以愉快的进行网络冲浪了~
+为了允许192.168.10.0/24能够与192.168.31.0/24通信，需要再开一个nat rule
+
+![QQ_1739686077802](QQ_1739686077802.png)
+
+这样差不多就大公告成了，把想要科学上网的机器的网关和dns改成openwrt的ip就行了，这样就可以愉快的进行网络冲浪了~
